@@ -1,0 +1,19 @@
+[
+    {
+    "nome":"Fernando",
+    "reponsavel":"Claudia",
+    "email":"fernando@gmail.com",
+    "idade": 9,
+    "statussativextr": true,
+    "ativextra": ["Judo"]
+    },
+
+    {
+        "nome":"Julia",
+        
+        "email":"julia@gmail.com",
+        "idade": 15,
+        "statussativextr": false,
+        "ativextra": [null]
+    }
+]

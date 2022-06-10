@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Bhaskara Akira</title>
+  <link rel="icon" type="imagem/png" href="/img/logo_aba.png">
+  <style>
+      h1{
+       font-size: 48px;
+       color: #ffffff;
+       padding: 2px 0 10px 0;
+       font-family: system-ui;
+       font-weight: bold;
+       text-align: center;
+       padding-bottom: 30px;
+    }
+    .content{
+      margin: 0px auto;
+      position: relative;
+      text-align: center; 
+      border-radius: 0px; 
+      background: #65c59d;
+      margin-left: 25%;
+      margin-right: 25% ;
+      margin-top: 10%;
+      font-family: system-ui;
+    }
+    input[type="submit"]{
+  width: 20%!important;
+  cursor: pointer;  
+  background: #65c59d;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="nome_login">Email</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@bhaskaraakira.com.br"/>
+          </p>
+           
+          <p> 
+            <label for="email_login">Senha<label>
+            <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+           <input type="submit" value="Entrar" />
+          </p>
+           
+        </form>
+      </div>    
+    </div>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+    "matricula":"01",
+    "nome":"Alice",
+    "presenca": true
+    },
+
+    {
+    "matricula":"02",
+    "nome":"Eduardo",
+    "presenca": true
+
+    },
+
+    {
+
+    "matricula":"03",
+    "nome":"Fernando",
+    "presenca": true
+
+    },
+
+    {
+
+    "matricula":"04",
+    "nome":"Joana",
+     "presenca": true
+    
+    },
+
+    
+    {
+    "matricula":"05",
+    "nome":"Maria",
+    "presenca": true
+
+    },
+]

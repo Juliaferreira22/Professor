@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Bhaskara Akira</title>
+
+  <!-- Imagem na aba do navegador-->
+  <link rel="icon" type="imagem/png" href="/img/logo_aba.png">
+  <link rel="stylesheet" href="/css/normalize.css" > 
+  <link rel="stylesheet" href="/css/estilo.css" >
+  <link rel="stylesheet" href="/css/calendario.css" >
+  
+</head>
+<body>
+
+    <div class="wrapper">
+    <article class="content">
+        <h1>AREA DO ALUNO</h1><br> 
+        <h3>Agenda</h3>
+
+        
+        <div id="container">
+          <div id="header">
+            <div id="monthDisplay"></div>
+    
+            <div>
+              <button id="backButton">Voltar</button>
+              <button id="nextButton">Próximo</button>
+            </div>
+              
+          </div>
+    
+          <div id="weekdays">
+            <div>Domingo</div>
+            <div>Segunda-feira</div>
+            <div>Terça-feira</div>
+            <div>Quarta-feira</div>
+            <div>Quinta-feira</div>
+            <div>Sexta-feira</div>
+            <div>Sábado</div>
+          </div>
+    
+    
+          <!-- div dinamic -->
+          <div id="calendar" ></div>
+    
+       
+      </div>
+    
+      <div id="newEventModal">
+        <h2>New Evente</h2>
+    
+        <input id="eventTitleInput" placeholder="Event Title"/>
+    
+        <button id="saveButton"> Salvar</button>
+        <button id="cancelButton">Cancelar</button>
+      </div>
+    
+      <div id="deleteEventModal">
+        <h2>Evento</h2>
+    
+        <div id="eventText"></div><br>
+    
+    
+        <button id="deleteButton">Deletar</button>
+        <button id="closeButton">Fechar</button>
+      </div>
+    
+      <div id="modalBackDrop"></div>
+  
+      <script src="/scripts/calendario.js"></script>
+    </article>
+    <aside class="side">      
+      <div>
+      <ul>
+        <a class="logo" href="/index.html"><img src="/img/Logo.png"></a>
+        <li><a href="/aluno/aluno.html">Nome Aluno</a></li>
+        <li><a href="/aluno/calendario/calendario.html">Calendario</a></li>
+        <li><a href="/aluno/calendario/atvextra/atvextra.html">Atividade Extras</a></li>
+        <li><a href="/aluno/calendario/atvextra/Chat/chat.html">Fale com um instrutor</a></li>
+        <li><a href="/aluno/calendario/atvextra/Chat/Conteudo/conteudo.html">Disciplinas</a></li>
+      </ul>
+    </aside>
+    </div>
+
+    
+    <footer>
+      <div>
+        <p>Escola Bhaskara Akira | © Todos os direitos reservados</p>
+        <ul class="main-footer">
+          <li><a href="#"><img src="/img/facebook.png" width="38"></a></li>
+          <li><a href="#"><img src="/img/Instagram.png" width="43" ></a></li>
+          <li><a href="#"><img src="/img/whats.png" width="41"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
